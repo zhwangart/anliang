@@ -1,0 +1,42 @@
+
+.artwork {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  margin-bottom: 5rem;
+  .artwork-link {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    &:hover {
+      .artwork-img {
+        opacity: .7;
+      }
+    }
+  }
+  .artwork-img {
+    position: absolute;
+    @include center;
+    display: block;
+    transition: all 0.3s ease-in-out .1s;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+    border: 0 rgba(0,0,0, .75) solid;
+    opacity: 1;
+  }
+
+  .artwork-info {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 5rem;
+    margin-top: 1rem;
+  }
+}

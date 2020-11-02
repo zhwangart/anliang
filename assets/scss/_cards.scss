@@ -1,0 +1,25 @@
+/* anliang.cc card*/
+/**/
+
+.card-album {
+  box-shadow: 0 .25rem .5rem rgba(black, .025);
+  border-color: rgba(black, .05);
+  .card-title,
+  .card-text {
+    overflow: hidden;
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .card-footer {
+    border-top-color: rgba(black, .05);
+    background-color: inherit;
+    padding: {
+      right: 1rem;
+      left: 1rem;
+    };
+  }
+}

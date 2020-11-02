@@ -1,0 +1,54 @@
+// anliang.cc reboot
+//
+
+body,
+.btn, .dropdown-menu {
+  font-size: .9375rem;
+}
+
+a {
+  color: $link-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+  &:active {
+    color: $link-active-color;
+  }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 1.125rem;
+  color: inherit
+}
+
+.h1, h1 {
+  font-size: 1.625rem
+}
+
+.h2, h2 {
+  font-size: 1.25rem
+}
+
+.h3, h3 {
+  font-size: 1.0625rem
+}
+
+.h4, h4 {
+  font-size: .9375rem
+}
+
+.h5, h5 {
+  font-size: .8125rem
+}
+
+.h6, h6 {
+  font-size: .625rem
+}
+
+.lead {
+  font-size: 1.17188rem;
+  font-weight: 300
+}

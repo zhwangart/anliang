@@ -1,0 +1,9 @@
+// anliang.cc dropdowns
+//
+
+.dropdown-ellipses,
+.dropdown-avatar{
+  &::after {
+    display: none;
+  }
+}
